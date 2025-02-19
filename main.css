@@ -223,7 +223,6 @@ footer p{
 }
 #logos-white{
     justify-self: center; /* Центрирование по горизонтали */
-
 }
 body > :nth-child(3), body > :nth-child(5){
     background-color: #d5e2f0;
@@ -347,161 +346,123 @@ button:active{
 #shop > :first-child{
     color: #d5e2f0;
 }
-@media (max-width:1024px) and (min-width:800px){
-    nav a {
-        display: none;
-   }
-    #burger{
-        display: inline;
-        margin-left: 60%;
-    }
-    #mascot{
-        display: none;
-    }
-    #mascotT{
-        display: block;
-    }
-    #CountDown::before{
-        height: 728px;
-        top: -100px;
-    }
-    #timer,#timer img{
-        display: block;
-    }
-    #parallelogram2 #pages{
-        display: block;
-    }
-    .pagesD{
-        display: none;
-    }
-    .pagesT{
-        display: inline;
-    }
-    section section{
-        grid-template-columns: 1fr 1fr;
-    }
-    section section article{
-        justify-self: center;
-    }
-    section section > :nth-child(3),section section > :nth-child(4){
-        display: none;
-    }
-    #Worldwide article{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-    }
-    #Worldwide article img{
-        display: none;
-    }
-    #Worldwide article > :nth-child(1),#Worldwide article > :nth-child(2),#Worldwide article > :nth-child(3),#Worldwide article > :nth-child(6),#Worldwide article > :nth-child(7),#Worldwide article > :nth-child(8),#Worldwide article > :nth-child(11),#Worldwide article > :nth-child(12),#Worldwide article > :nth-child(13){
-        display: grid;
-    }
-    #Worldwide #pages{
-        display: block;
-        justify-self: center;
-    }
+#logo-black {
+    background-image: url(03-images/logo-black.png);
 }
-@media (max-width:800px){
-    nav a {
-        display: none;
-   }
-   #burger{
-    display: inline;
-   }
-   #hero #pages{
-    display: grid;
-   }
-   #hero :nth-child(3){
-    display: block;
-    justify-self: center;
-   }
-   #mascot{
-    display: none;
-   }
-   #mascotM{
-    display: block;
-    justify-self: center;
-   }
-   #circle{
-       display: none;
-   }
-    #CountDown::before{
-        height: 728px;
-        top: -100px;
-    }
-    #parallelogram2::before{
-        height: 927px;
-    }
-    #shop > :first-child{
-        margin-top: 217px;
-    }
-    #timer,#timer img{
-        display: block;
-    }
-    #pages{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr; 
-    }
-    #parallelogram2 #pages{
-        display: grid;
-    }
-    #Worldwide #pages{
-        display: grid;
-    }
-    #pages span{
-        text-align: center;
-    }
-    #pages :last-child{
-        justify-self: end;
-    }
-    .pagesD{
-        display: none;
-    }
-    .pagesT{
-        display: none;
-    }
-    .pagesM{
-        display: inline;
-    }
-    section section{
-        grid-template-columns: 1fr;
-    }
-    section section article{
-        justify-self: center;
-    }
-    section section > :nth-child(2),section section > :nth-child(3),section section > :nth-child(4){
-        display: none;
-    }
-    #Worldwide article{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    #Worldwide article img{
-        display: none;
-    }
-    #Worldwide article > :nth-child(1),#Worldwide article > :nth-child(2),#Worldwide article > :nth-child(6),#Worldwide article > :nth-child(7),#Worldwide article > :nth-child(11),#Worldwide article > :nth-child(12){
-        display: grid;
-    }
-    footer{
-        background: #333333;
-        grid-template-columns: 1fr;
-
-        text-align: center;
-    }
-    footer p{
-        display: block;
-        margin-bottom: 100px;
-    }
-    footer article{
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-    footer :nth-child(4){
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }
-    footer :nth-child(5){
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }
+#logos-white {
+    background-image: url(03-images/logos-white.png);
+}
+#menuburger {
+    background-image: url(03-images/menuburger.svg);
+}
+#btn-prev {
+    background-image: url(03-images/btn-prev.svg);
+}
+#btn-next {
+    background-image: url(03-images/btn-next.svg);
+}
+#lines-titles {
+    background-image: url(03-images/lines-titles.png);
+}
+#logos-countdown {
+    background-image: url(03-images/logos-countdown.png);
+}
+#road-01 {
+    background-image: url(03-images/road-01.png);
+}
+#road-02 {
+    background-image: url(03-images/road-02.png);
+}
+#road-03 {
+    background-image: url(03-images/road-03.png);
+}
+#road-04 {
+    background-image: url(03-images/road-04.png);
+}
+#about-01 {
+    background-image: url(03-images/about-01.png);
+}
+#about-02 {
+    background-image: url(03-images/about-02.png);
+}
+#about-03 {
+    background-image: url(03-images/about-03.png);
+}
+#about-04 {
+    background-image: url(03-images/about-04.png);
+}
+#logo-emblem {
+    background-image: url(03-images/logo-emblem.png);
+}
+#shop-01 {
+    background-image: url(03-images/shop-01.png);
+}
+#shop-02 {
+    background-image: url(03-images/shop-02.png);
+}
+#shop-03 {
+    background-image: url(03-images/shop-03.png);
+}
+#shop-04 {
+    background-image: url(03-images/shop-04.png);
+}
+#partners-01 {
+    background-image: url(03-images/partners/partner-01.png);
+}
+#partners-02 {
+    background-image: url(03-images/partners/partner-02.png);
+}
+#partners-03 {
+    background-image: url(03-images/partners/partner-03.png);
+}
+#partners-04 {
+    background-image: url(03-images/partners/partner-04.png);
+}
+#partners-05 {
+    background-image: url(03-images/partners/partner-05.png);
+}
+#partners-06 {
+    background-image: url(03-images/partners/partner-06.png);
+}
+#partners-07 {
+    background-image: url(03-images/partners/partner-07.png);
+}
+#partners-08 {
+    background-image: url(03-images/partners/partner-08.png);
+}
+#partners-09 {
+    background-image: url(03-images/partners/partner-09.png);
+}
+#partners-10 {
+    background-image: url(03-images/partners/partner-10.png);
+}
+#partners-11 {
+    background-image: url(03-images/partners/partner-11.png);
+}
+#partners-12 {
+    background-image: url(03-images/partners/partner-12.png);
+}
+#partners-13 {
+    background-image: url(03-images/partners/partner-13.png);
+}
+#partners-14 {
+    background-image: url(03-images/partners/partner-14.png);
+}
+#partners-15 {
+    background-image: url(03-images/partners/partner-15.png);
+}
+#icons-app {
+    background-image: url(03-images/icons-app.png);
+}
+#icons-social {
+    background-image: url(03-images/icons-social.svg);
+}
+#mascot-lg {
+    background-image: url(03-images/mascot-lg.png);
+}
+#mascot-md {
+    background-image: url(03-images/mascot-md.png);
+}
+#mascot-sm {
+    background-image: url(03-images/mascot-sm.png);
 }
