@@ -99,9 +99,9 @@ section{
     font-size: 94px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center; /* Горизонтальное центрирование */
-    align-items: center; /* Вертикальное центрирование */
-    justify-self: center; /* Центрирование по горизонтали */
+    justify-content: center;
+    align-items: center;
+    justify-self: center; 
 }
 #to{
     height: 740px;
